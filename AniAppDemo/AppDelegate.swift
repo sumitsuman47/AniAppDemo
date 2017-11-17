@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  AniAppDemo
 //
-//  Created by Jarvis on 06/11/17.
-//  Copyright © 2017 Jarvis. All rights reserved.
+//  Created by Sumit Suman on 15/11/17.
+//  Copyright © 2017 Sumit Suman. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UIApplication.shared.statusBarStyle = .lightContent
         return true
     }
 
